@@ -1,0 +1,55 @@
+.headline > span{
+    color: $black-color;
+    font-family: "Advent Pro";
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    @media (min-width: $desktop-width) {
+        font-family: "Bebas Neue";
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+}
+
+.headline-s > span {
+    font-size: 1.125rem;
+    letter-spacing: 0.05625rem;
+
+    @media (min-width: $desktop-width) {
+        font-family: "Bebas Neue";
+        font-size: 1.5rem;
+        letter-spacing: 0.075rem;
+    }
+}
+
+.headline-l > span {
+    color: $black-color;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: normal;
+
+    @media (min-width: $desktop-width) {
+        font-size: 4rem;
+        letter-spacing: 0.3rem; 
+    }
+
+    @media (min-width: $large-width) {
+        font-size: 6rem;
+    }
+}
+
+.headline-blue {
+    color: $secondary-color;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    text-transform: uppercase;
+
+    @media (min-width: $desktop-width) {
+        font-size: 0.875rem;
+        letter-spacing: 0.21875rem;
+    }
+}

@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.min.css">
+        <title>Kiwi eco box</title>
+    </head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="#">
+                <div class="header__img">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1024px)"
+                            srcset="./img/logo-desktop.webp 1x, ./img/logo-desktop@2x.webp 2x">
+                        <source type="image/webp"
+                            srcset="./img/logo-mobile.webp 1x, ./img/logo-mobile@2x.webp 2x">
+                        <source media="(min-width: 1024px)"
+                            srcset="./img/logo-desktop.png 1x, ./img/logo-desktop@2x.png 2x">
+                        <img class="header__logo" src="./img/logo-mobile.png"
+                            srcset="./img/logo-mobile@2x.png" width="96" height="50" alt="logotype">
+                    </picture>
+                </div>
+            </a>
+    
+            <button class="header__toggle" type="button">
+                <span class="visually-hidden">open navigation</span>
+            </button>
+        </div>
+      
+
+        <nav class="header__nav nav">
+            <div class="nav__cirlce">
+                <picture>
+                    <source type="image/webp"
+                    srcset="./img/nav-cirlce.webp 1x, ./img/nav-circle@2x.webp 2x">
+                    <img src="./img/nav-circle.png"
+                        srcset="./img/nav-cirlce@2x.png" width="91" height="158" alt="circle">
+                </picture>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="#"><span>Home</span></a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#"><span class="nav__link-hidden">Boxes</span></a>
+                    <ul class="nav__dropdown">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#"><span>What's inside</span></a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#"><span>Kiwi Eco Box</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="#"><span>About</span></a>
+                </li>
+               
+                <li class="nav__item">
+                    <a class="nav__link" href="#"><span>Account</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner__container">
+                <div>
+                    <div class="banner__title"><span>Everything You Need </span></div>
+                    <div class="banner__title-italic"><span>to Start Living </span><span>Zero-Waste</span></div>
+                </div>
+                
+                <button class="banner__button button">Start now</button>
+            </div>
+           
+            <div class="banner__img">
+                <picture>
+                    <source type="image/webp" media="(min-width: 768px)"
+                        srcset="./img/banner-desktop.webp 1x, ./img/banner-desktop@2x.webp 2x">
+                    <source type="image/webp"
+                        srcset="./img/banner-mobile.webp 1x, ./img/banner-mobile@2x.webp 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./img/banner-desktop.jpg 1x, ./img/banner-desktop@2x.jpg 2x">
+                    <img class="banner__image" src="./img/banner-mobile.jpg"
+                        srcset="./img/banner-mobile@2x.jpg" width="320" height="448" alt="banner">
+                </picture>
+            </div>
+        </section>
+
+        <section class="steps container">
+            <h3 class="steps__title headline"><span>How it Works</span></h3>
+            <ul class="steps__list">
+                <li class="steps__item steps__item-1">
+                    <div class="circle">
+                        <div class="circle__inner"></div>
+                    </div>
+                    <div class="steps__img">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1024px)"
+                                srcset="./img/steps-01-desktop.webp 1x, ./img/steps-01-desktop@2x.webp 2x">
+                            <source type="image/webp"
+                                srcset="./img/steps-01-mobile.webp 1x, ./img/steps-01-mobile@2x.webp 2x">
+                            <source media="(min-width: 1024px)"
+                                srcset="./img/steps-01-desktop.png 1x, ./img/steps-01-desktop@2x.png 2x">
+                            <img src="./img/steps-01-mobile.png"
+                                srcset="./img/steps-01-mobile@2x.png" width="276" height="159" alt="banner">
+                        </picture>
+                    </div>
+                    <div>
+                        <div class="steps__subtitle headline headline-s"><span>Join The Movement</span></div>
+                        <div class="steps__description"><p>Get started by signing up for monthly subscription. We bring you an easy way to start your zero-waste journey</p></div>
+                    </div>
+                    <div class="steps__wrap">
+                        <div class="steps__border">
+                            <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="steps__item">
+                    <div class="steps__img">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1024px)"
+                                srcset="./img/steps-02-desktop.webp 1x, ./img/steps-02-desktop@2x.webp 2x">
+                            <source type="image/webp"
+                                srcset="./img/steps-02-mobile.webp 1x, ./img/steps-02-mobile@2x.webp 2x">
+                            <source media="(min-width: 1024px)"
+                                srcset="./img/steps-02-desktop.png 1x, ./img/steps-02-desktop@2x.png 2x">
+                            <img src="./img/steps-02-mobile.png"
+                                srcset="./img/steps-02-mobile@2x.png" width="276" height="159" alt="banner">
+                        </picture>
+                    </div>
+                    <div>
+                        <div class="steps__subtitle headline headline-s"><span>Get Your Box</span></div>
+                        <div class="steps__description"><p>Every month receive your box with essential products, but plastic free and safe for the environment</p></div>
+                    </div>
+                    <div class="steps__wrap">
+                        <div class="steps__border">
+                            <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="steps__item steps__item-3">
+                    <div class="circle">
+                        <div class="circle__inner"></div>
+                    </div>
+                    <div class="steps__img">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1024px)"
+                                srcset="./img/steps-03-desktop.webp 1x, ./img/steps-03-desktop@2x.webp 2x">
+                            <source type="image/webp"
+                                srcset="./img/steps-03-mobile.webp 1x, ./img/steps-03-mobile@2x.webp 2x">
+                            <source media="(min-width: 1024px)"
+                                srcset="./img/steps-03-desktop.png 1x, ./img/steps-03-desktop@2x.png 2x">
+                            <img src="./img/steps-03-mobile.png"
+                                srcset="./img/steps-03-mobile@2x.png" width="276" height="159" alt="banner">
+                        </picture>
+                    </div>
+                    <div>
+                        <div class="steps__subtitle headline headline-s"><span>Make a Difference</span></div>
+                        <div class="steps__description"><p>Small steps can lead to bigger changes, and now you are the change. Let's build community of people who care</p></div>
+                    </div>
+                </li>
+            </ul>
+            <button class="steps__button button" type="button">Get the Box</button>
+        </section>
+
+        <section class="promo">
+            <div class="container">
+                <div class="promo__container">
+                    <div class="promo__description">
+                        <div class="promo__wrap">
+                            <div>
+                                <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                            </div>
+                            <h2 class="promo__title headline"><span>BOX OF A MONTH</span></h2>
+                        </div>
+                        <div class="promo__text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
+                    </div>
+                    
+                    <div class="promo__box">
+                        <div class="promo__img">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 1024px)"
+                                    srcset="./img/promo-01-desktop.webp 1x, ./img/promo-01-desktop@2x.webp 2x">
+                                <source type="image/webp"
+                                    srcset="./img/promo-01-mobile.webp 1x, ./img/promo-01-mobile@2x.webp 2x">
+                                <source media="(min-width: 1024px)"
+                                    srcset="./img/promo-01-desktop.jpg 1x, ./img/promo-01-desktop@2x.jpg 2x">
+                                <img class="promo__image" src="./img/promo-01-mobile.png"
+                                    srcset="./img/promo-01-mobile@2x.jpg" width="140" height="263" alt="">
+                            </picture>
+                        </div>
+                        <div class="promo__img">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 1024px)"
+                                    srcset="./img/promo-02-desktop.webp 1x, ./img/promo-02-desktop@2x.webp 2x">
+                                <source type="image/webp"
+                                    srcset="./img/promo-02-mobile.webp 1x, ./img/promo-02-mobile@2x.webp 2x">
+                                <source media="(min-width: 1024px)"
+                                    srcset="./img/promo-02-desktop.jpg 1x, ./img/promo-02-desktop@2x.jpg 2x">
+                                <img class="promo__image" src="./img/promo-02-mobile.jpg"
+                                    srcset="./img/promo-02-mobile@2x.jpg" width="140" height="263" alt="">
+                            </picture>
+                            <div class="promo__rings">
+                                <img src="./img/rings.png" width="76" height="76" alt="rings">
+                            </div>
+                        </div>
+
+                        <div class="promo__extra">
+                            <picture>
+                                <source type="image/webp"
+                                    srcset="./img/promo-04.webp 1x, ./img/promo-04@2x.webp 2x">                          
+                                <img src="./img/promo-04.png"
+                                    srcset="./img/promo-04@2x.png" width="504" height="456" alt="">
+                            </picture>
+                        </div>
+                       
+                    </div>
+                    <div class="promo__wrapper">
+                        <a class="promo__link button" href="#">See What's Inside
+                            <span class="promo__leaf">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/leaf.webp 1x, ./img/leaf@2x.webp 2x">
+                                    <img src="./img/leaf.png"
+                                        srcset="./img/leaf@2x.png" width="228" height="228" alt="leaf">
+                                </picture>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="mission">
+            
+            <div class="mission__line">
+                <img src="./img/mission_line.png" width="400" height="300" alt="line">
+            </div>   
+            <div class="container">
+                <div class="mission__box">
+                    <div class="mission__wrap">
+                        <div>
+                            <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                        </div>
+                        <div class="headline-blue"><span>Our mission</span></div>
+                    </div>
+                    <div class="mission__title headline-l"><span>We are here to help you live greener and more sustainably</span></div>
+                    <div class="mission__subtitle"><span>Small steps matter </span></div>
+                    <div class="mission__img">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1024px)"
+                                srcset="./img/feet-desktop.webp 1x, ./img/feet-desktop@2x.webp 2x">
+                            <source type="image/webp"
+                                srcset="./img/feet-mobile.webp 1x, ./img/feet-mobile@2x.webp 2x">
+                            <source media="(min-width: 1024px)"
+                                srcset="./img/feet-desktop.jpg 1x, ./img/feet-desktop@2x.jpg 2x">
+                            <img class="mission__image" src="./img/feet-mobile.jpg"
+                                srcset="./img/feet-mobile@2x.jpg" width="76" height="76" alt="icon">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="posts">
+            <div class="container">
+                <div class="posts__note headline-blue"><span>Join the conversation an help us create a new world!</span></div>
+                <h2 class="posts__title headline"><span>Recent Posts</span></h2>
+
+                <ul class="posts__list">
+                    <li class="posts__item">
+                        <a class="posts__link" href="#">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 1024px)"
+                                    srcset="./img/post-01-desktop.webp 1x, ./img/post-01-desktop@2x.webp 2x">
+                                <source type="image/webp"
+                                    srcset="./img/post-01-mobile.webp 1x, ./img/post-01-mobile@2x.webp 2x">
+                                <source media="(min-width: 1024px)"
+                                    srcset="./img/post-01-desktop.jpg 1x, ./img/post-01-desktop@2x.jpg 2x">
+                                <img class="posts__image" src="./img/post-01-mobile.jpg"
+                                    srcset="./img/post-01-mobile@2x.jpg" width="140" height="140" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="posts__item">
+                        <a class="posts__link" href="#">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 1024px)"
+                                    srcset="./img/post-02-desktop.webp 1x, ./img/post-02-desktop@2x.webp 2x">
+                                <source type="image/webp"
+                                    srcset="./img/post-02-mobile.webp 1x, ./img/post-02-mobile@2x.webp 2x">
+                                <source media="(min-width: 1024px)"
+                                    srcset="./img/post-02-desktop.jpg 1x, ./img/post-02-desktop@2x.jpg 2x">
+                                <img class="posts__image" src="./img/post-02-mobile.jpg"
+                                    srcset="./img/post-02-mobile@2x.jpg" width="140" height="140" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="posts__item">
+                        <a class="posts__link" href="#">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 1024px)"
+                                    srcset="./img/post-03-desktop.webp 1x, ./img/post-03-desktop@2x.webp 2x">
+                                <source type="image/webp"
+                                    srcset="./img/post-03-mobile.webp 1x, ./img/post-03-mobile@2x.webp 2x">
+                                <source media="(min-width: 1024px)"
+                                    srcset="./img/post-03-desktop.jpg 1x, ./img/post-03-desktop@2x.jpg 2x">
+                                <img class="posts__image" src="./img/post-03-mobile.jpg"
+                                    srcset="./img/post-03-mobile@2x.jpg" width="140" height="140" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="posts__item">
+                        <a class="posts__link" href="#">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 1024px)"
+                                    srcset="./img/post-04-desktop.webp 1x, ./img/post-04-desktop@2x.webp 2x">
+                                <source type="image/webp"
+                                    srcset="./img/post-04-mobile.webp 1x, ./img/post-04-mobile@2x.webp 2x">
+                                <source media="(min-width: 1024px)"
+                                    srcset="./img/post-04-desktop.jpg 1x, ./img/post-04-desktop@2x.jpg 2x">
+                                <img class="posts__image" src="./img/post-04-mobile.jpg"
+                                    srcset="./img/post-04-mobile@2x.jpg" width="140" height="140" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="posts__item posts__item-tablet">
+                        <a class="posts__link" href="#">
+                            <picture>
+                                <source type="image/webp"
+                                    srcset="./img/post-05-desktop.webp 1x, ./img/post-05-desktop@2x.webp 2x">
+                                <img class="posts__image" src="./img/post-05-desktop.jpg"
+                                    srcset="./img/post-05-desktop@2x.jpg" width="140" height="140" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="posts__item posts__item-desktop">
+                        <a class="posts__link" href="#">
+                            <picture>
+                                <source type="image/webp"
+                                    srcset="./img/post-06-desktop.webp 1x, ./img/post-06-desktop@2x.webp 2x">
+                                <img class="posts__image" src="./img/post-06-desktop.jpg"
+                                    srcset="./img/post-06-desktop@2x.jpg" width="140" height="140" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="posts__item posts__item-desktop">
+                        <a class="posts__link" href="#">
+                            <picture>
+                                <source type="image/webp"
+                                    srcset="./img/post-07-desktop.webp 1x, ./img/post-07-desktop@2x.webp 2x">
+                                <img class="posts__image" src="./img/post-07-desktop.jpg"
+                                    srcset="./img/post-07-desktop@2x.jpg" width="140" height="140" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="posts__decor-1">
+                        <img src="./img/post-circle-01.png" width="66" height="66" alt="icon">
+                    </li>
+                    <li class="posts__decor-2">
+                        <img src="./img/post-circle-02.png" width="49" height="49" alt="icon">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="news">
+            <div class="news__bg">
+                <img src="./img/line_bg.png" alt="zigzag">
+            </div>
+            <div class="container">
+            
+                <h2 class="news__title headline"><span>What's new in blog?</span></h2>
+
+                <div class="swiper news__slider">
+                    <ul class="news__list swiper-wrapper">
+                        <li class="news__item card swiper-slide">
+                            <div class="card__img">
+                                <picture>
+                                    <source type="image/webp" media="(min-width: 1024px)"
+                                        srcset="./img/news-01-desktop.webp 1x, ./img/news-01-desktop@2x.webp 2x">
+                                    <source type="image/webp"
+                                        srcset="./img/news-01-mobile.webp 1x, ./img/news-01-mobile@2x.webp 2x">
+                                    <source media="(min-width: 1024px)"
+                                        srcset="./img/news-01-desktop.jpg 1x, ./img/news-01-desktop@2x.jpg 2x">
+                                    <img class="posts__image" src="./img/news-01-mobile.jpg"
+                                        srcset="./img/news-01-mobile@2x.jpg" width="140" height="140" alt="">
+                                </picture>
+                            </div>
+                            <div class="card__wrap">
+                                <h3 class="card__title headline"><span>Why KIWI Eco Box?</span></h3>
+                                <div>
+                                    <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                                </div>
+                                <div class="card__description"><p>Get started by signing up for monthly subscription. We bring you an easy way to start your zero-waste journey</p></div>
+                                <div class="card__box">
+                                    <a class="card__link" href="#">Read more<span></span></a>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="news__item card swiper-slide">
+                            <div class="card__img">
+                                <picture>
+                                
+                                    <source type="image/webp"
+                                        srcset="./img/news-02.webp 1x, ./img/news-02@2x.webp 2x">
+                                
+                                    <img class="posts__image" src="./img/news-02.jpg"
+                                        srcset="./img/news-02@2x.jpg" width="140" height="140" alt="">
+                                </picture>
+                            </div>
+                            <div class="card__wrap">
+                                <h3 class="card__title headline"><span>What Is Inside The April Kiwi Eco Box? Portable Lunch Box</span></h3>
+                                <div>
+                                    <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                                </div>
+                                <div class="card__description"><p>Every month receive your box with essential products, but plastic free and safe for the environment</p></div>
+                                <div class="card__box">
+                                    <a class="card__link" href="#">Read more<span></span></a>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="news__item card swiper-slide">
+                            <div class="card__img">
+                                <picture>
+                                
+                                    <source type="image/webp"
+                                        srcset="./img/news-03.webp 1x, ./img/news-03@2x.webp 2x">
+                                
+                                    <img class="posts__image" src="./img/news-03.jpg"
+                                        srcset="./img/news-03@2x.jpg" width="140" height="140" alt="">
+                                </picture>
+                            </div>
+                            <div class="card__wrap">
+                                <h3 class="card__title headline"><span>Make a Difference</span></h3>
+                                <div>
+                                    <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                                </div>
+                                <div class="card__description"><p>Small steps can lead to bigger changes, and now you are the change. Let's build community of people who care</p></div>
+                                <div class="card__box">
+                                    <a class="card__link" href="#">Read more<span></span></a>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="request">
+            <div class="container">
+                <div class="request__container">
+                    <div class="request__wrap">
+                        <div class="request__line">
+                            <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                        </div>
+                        <div class="request__subtitle headline-blue"><span>Stay in the know</span></div>
+                        <h2 class="request__title headline"><span>Hear about the latest sneak peaks and spoilers</span></h2>
+                    </div>
+
+                    <div class="request__img">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 1024px)"
+                                srcset="./img/box-desktop.webp 1x, ./img/box-desktop@2x.webp 2x">
+                            <source type="image/webp"
+                                srcset="./img/box-mobile.webp 1x, ./img/box-mobile@2x.webp 2x">
+                            <source media="(min-width: 1024px)"
+                                srcset="./img/box-desktop.jpg 1x, ./img/box-desktop@2x.jpg 2x">
+                            <img class="request__image" src="./img/box-mobile.jpg"
+                                srcset="./img/box-mobile@2x.jpg" width="320" height="219" alt="icon">
+                        </picture>
+                    </div>
+                    <div class="request__box headline-l">
+                        <span>get CAUSEBOX delivered directly <span>to your inbox!</span></span>
+                    </div>
+                    <form class="request__form" method="post">
+                        <label class="request__label" for="mail">
+                            <input class="request__input" type="email" id="mail" name="mail" placeholder="Your email adress" required>
+                            <span class="request__leaf">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/leaf.webp 1x, ./img/leaf@2x.webp 2x">
+                                    <img src="./img/leaf.png"
+                                        srcset="./img/leaf@2x.png" width="228" height="228" alt="leaf">
+                                </picture>
+                            </span>
+                        </label>
+                        <button class="request__btn button" type="submit">Sign up</button>
+                        <div class="request__note">
+                            <p>By clicking "sign up" you agree to receive emails from CAUSEBOX and accept our web <a href="#">terms of use </a>and <a href="#">privacy and cookie policy</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="review">
+            <div class="container">
+                <div class="review__note headline-blue"><span>What do our</span></div>
+                <h2 class="review__title headline"><span>clients say</span></h2>
+                <div class="review__quotes-desktop">
+                    <picture>
+                        <source type="image/webp"
+                            srcset="./img/quotes-desktop.webp 1x, ./img/quotes-desktop@2x.webp 2x">
+                        <img  src="./img/quotes-desktop.png"
+                            srcset="./img/quotes-desktop@2x.png" width="250" height="244" alt="quotes">
+                    </picture>
+                </div>
+
+                <div class="review__line-desktop">
+                    <picture>
+                        <source type="image/webp"
+                            srcset="./img/line-review.webp 1x, ./img/line-review@2x.webp 2x">
+                        <img  src="./img/line-review.png"
+                            srcset="./img/line-review@2x.png" width="250" height="166" alt="line">
+                    </picture>
+                </div>
+
+                <div class="swiper review__slider">
+                    <ul class="review__list swiper-wrapper">
+                        <li class="review__item swiper-slide">
+                            <div class="review__box">
+                                <div class="review__img">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 1024px)"
+                                            srcset="./img/review-desktop.webp 1x, ./img/review-desktop@2x.webp 2x">
+                                        <source type="image/webp"
+                                            srcset="./img/review-mobile.webp 1x, ./img/review-mobile@2x.webp 2x">
+                                        <source media="(min-width: 1024px)"
+                                            srcset="./img/review-desktop.png 1x, ./img/review-desktop@2x.png 2x">
+                                        <img class="review__image" src="./img/review-mobile.png"
+                                            srcset="./img/review-mobile@2x.png" width="60" height="60" alt="">
+                                    </picture>
+                                    <div class="review__quotes">
+                                        <picture>
+                                            <source type="image/webp"
+                                                srcset="./img/quotes-mobile.webp 1x, ./img/quotes-mobile@2x.webp 2x">
+                                            <img  src="./img/quotes-mobile.png"
+                                                srcset="./img/quotes-mobile@2x.png" width="51" height="42" alt="quotes">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="review__wrap">
+                                    <div class="review__name headline headline-s"><span>Jessica T.</span></div>
+                                    <div class="review__stars">
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="review__range">5/5</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="review__border">
+                                <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                            </div>
+                            <div class="review__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
+                                <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
+                            </div>
+                            <div class="review__blur"></div>
+                        
+                        </li>
+                        <li class="review__item swiper-slide">
+                            <div class="review__box">
+                                <div class="review__img">
+                                    <picture>
+                                        <source type="image/webp" media="(min-width: 1024px)"
+                                            srcset="./img/review-desktop.webp 1x, ./img/review-desktop@2x.webp 2x">
+                                        <source type="image/webp"
+                                            srcset="./img/review-mobile.webp 1x, ./img/review-mobile@2x.webp 2x">
+                                        <source media="(min-width: 1024px)"
+                                            srcset="./img/review-desktop.png 1x, ./img/review-desktop@2x.png 2x">
+                                        <img class="review__image" src="./img/review-mobile.png"
+                                            srcset="./img/review-mobile@2x.png" width="60" height="60" alt="">
+                                    </picture>
+                                    <div class="review__quotes">
+                                        <picture>
+                                            <source type="image/webp"
+                                                srcset="./img/quotes-mobile.webp 1x, ./img/quotes-mobile@2x.webp 2x">
+                                            <img  src="./img/quotes-mobile.png"
+                                                srcset="./img/quotes-mobile@2x.png" width="51" height="42" alt="quotes">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="review__wrap">
+                                    <div class="review__name headline headline-s"><span>Jessica T.</span></div>
+                                    <div class="review__stars">
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="./img/star.webp 1x, ./img/star@2x.webp 2x">
+                                                <img src="./img/star.png"
+                                                    srcset="./img/star@2x.png" width="16" height="16" alt="">
+                                            </picture>
+                                        </div>
+                                        <div class="review__range">5/5</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="review__border">
+                                <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                            </div>
+                            <div class="review__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
+                                <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
+                                <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
+                            </div>
+                            <div class="review__blur"></div>
+                        
+                        </li>
+                    </ul>
+
+                    <div class="review__nav">
+                        <div class="swiper-button-prev">
+                            <div class="review__arrow review__arrow-prev">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/arrow-mobile.webp 1x, ./img/arrow-mobile@2x.webp 2x">
+                                    <img src="./img/arrow-mobile.png"
+                                        srcset="./img/arrow-mobile@2x.png" width="12" height="12" alt="arrow">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <div class="review__arrow">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="./img/arrow-mobile.webp 1x, ./img/arrow-mobile@2x.webp 2x">
+                                    <img src="./img/arrow-mobile.png"
+                                        srcset="./img/arrow-mobile@2x.png" width="12" height="12" alt="arrow">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review__cirlce">
+                <picture>
+                    <source type="image/webp"
+                    srcset="./img/review-cirlce.webp 1x, ./img/review-circle@2x.webp 2x">
+                    <img src="./img/review-circle.png"
+                        srcset="./img/review-cirlce@2x.png" width="139" height="62" alt="circle">
+                </picture>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <ul class="footer__nav">
+                
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>Home</span></a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>Boxes</span></a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>What's inside</span></a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>Kiwi Eco Box</span></a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>About</span></a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>Account</span></a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>blog</span></a>
+                </li>
+                <li class="footer__item footer__item-logo">
+                    <a class="footer__link" href="#">
+                        <div class="footer__img">
+                            <picture>
+                                <source type="image/webp" media="(min-width: 1024px)"
+                                    srcset="./img/logo-desktop.webp 1x, ./img/logo-desktop@2x.webp 2x">
+                                <source type="image/webp"
+                                    srcset="./img/logo-mobile.webp 1x, ./img/logo-mobile@2x.webp 2x">
+                                <source media="(min-width: 1024px)"
+                                    srcset="./img/logo-desktop.png 1x, ./img/logo-desktop@2x.png 2x">
+                                <img class="footer__logo" src="./img/logo-mobile.png"
+                                    srcset="./img/logo-mobile@2x.png" width="134" height="70" alt="logotype">
+                            </picture>
+                        </div>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>Faq</span></a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#"><span>CONTACT US</span></a>
+                </li>
+                <li class="footer__item">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <div class="social__img">
+                                    <img class="social__image" src="./img/facebook.png" width="30" height="30" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <div class="social__img">
+                                    <img class="social__image" src="./img/instagram.png" width="30" height="30" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <div class="social__img">
+                                    <img class="social__image" src="./img/youtube.png" width="30" height="30" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <div class="social__img">
+                                    <img class="social__image" src="./img/twitter.png" width="30" height="30" alt="">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__copyright">
+            <span>Kiwi Eco Box © 2021</span>
+            <span>Development by SheepFish</span>
+            <div class="footer__wrap">
+                <picture>
+                    <source type="image/webp"
+                        srcset="./img/logotype.webp 1x, ./img/logotype@2x.webp 2x">
+                    <img src="./img/logotype.png"
+                        srcset="./img/logotype@2x.png" width="38" height="30" alt="logotype">
+                </picture>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <div class="modal__img">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1024px)"
+                            srcset="./img/modal-desktop.webp 1x, ./img/modal-desktop@2x.webp 2x">
+                        <source type="image/webp"
+                            srcset="./img/modal-mobile.webp 1x, ./img/modal-mobile@2x.webp 2x">
+                        <source media="(min-width: 1024px)"
+                            srcset="./img/modal-desktop.png 1x, ./img/modal-desktop@2x.png 2x">
+                        <img src="./img/modal-mobile.png"
+                            srcset="./img/modal-mobile@2x.png" width="121" height="150" alt="icon">
+                    </picture>
+                </div>
+
+                <div class="modal__wrap">
+                    <div class="modal__box"> 
+                        <div class="modal__title headline"><span>Thank you for </span><span>subscribing!</span></div>
+                        <div class="modal__border">
+                            <img src="./img/zigzag-small.png" width="52" height="9" alt="icon">
+                        </div>
+                        <div class="modal__text headline headline-s"><span>Now you will receive alerts when new news and boxes are released!</span></div>
+                    </div>
+                    <button class="modal__btn button" type="button">Good</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="scripts/main.min.js" type="module"></script>
+</body>
+</html>

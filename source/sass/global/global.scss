@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: $primary-color;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-X: hidden;
+
+    @media (min-width: $desktop-width) {
+        font-size: 1rem;
+    }
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer,
+header {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input,
+button,
+textarea {
+    border: none;
+    background: none;
+    outline: none;
+    font-family: "Lato", Arial, sans-serif;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    padding: 3em 1rem 1.8rem;
+    max-width: 80rem;
+    margin: 0 auto;
+
+    @media (min-width: $desktop-width) {
+        padding: 6.25rem 3rem;
+    }
+
+    @media (min-width: $large-width) {
+        padding: 6.25rem 1rem;
+    }
+}

@@ -1,0 +1,284 @@
+.review {
+    position: relative;
+
+    .container {
+        max-width: 100rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.88rem;
+        height: 1.88rem;
+        border: 0.3rem solid #F0F8F6;;
+        border-radius: 3.125rem;
+        background: linear-gradient(297deg, #74E6CF 0%, #C0E594 100%);
+        margin: 0;
+        &::after {
+            display: none;
+        }
+    }
+
+    .review__arrow {
+        img {
+            display: block;
+        }
+    }
+
+    .review__arrow-prev {
+        transform: rotate(180deg);
+    }
+}
+
+.review__cirlce {
+    display: none;
+
+    img {
+        display: block;
+    }
+
+    @media (min-width: $desktop-width) {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 5rem;
+    }
+}
+
+.review__nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+
+    @media (min-width: $desktop-width) {
+        padding-left: 34rem;
+        justify-content: flex-start;
+    }
+
+    @media (min-width: $large-width) {
+        padding-left: 46rem;
+    }
+}
+
+.review__quotes-desktop {
+    display: none;
+
+    @media (min-width: $large-width) {
+        display: block;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.review__line-desktop {
+    display: none;
+
+    @media (min-width: $large-width) {
+        display: block;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+.review__quotes {
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    z-index: -1;
+
+    @media (min-width: $desktop-width) {
+        display: none;
+    }
+}
+
+.review__slider {
+    padding-top: 1.5rem;
+    @media (min-width: $tablet-width) {
+        width: 35rem;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: unset;
+        padding-top: 6.6rem;
+    }
+}
+
+.review__list {
+    margin-bottom: 1.25rem;
+
+    @media (min-width: $large-width) {
+        margin-bottom: 2rem;
+    }
+}
+
+.review__item {
+    @media (min-width: $desktop-width) {
+        padding-left: 35rem;
+    }
+
+    @media (min-width: $large-width) {
+        padding-left: 47rem;
+    }
+} 
+
+.review__img {
+    position: relative;
+
+    @media (min-width: $desktop-width) {
+        position: absolute;
+        top: -5rem;
+        left: 0;
+    }
+
+    @media (min-width: $large-width) {
+        top: -4rem;
+        left: -1rem;
+    }
+}
+
+.review__image {
+    @media (min-width: $desktop-width) {
+        width: 30rem;
+    }
+
+    @media (min-width: $large-width) {
+        width: 100%;
+    }
+}
+
+.review__note {
+    text-align: center;
+    margin-bottom: 0.6rem;
+
+    @media (min-width: $desktop-width) {
+        text-align: left;
+        margin-bottom: 1.25rem;
+    }
+
+    @media (min-width: $large-width) {
+        margin-left: 10rem;
+    }
+}
+
+.review__title {
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        text-align: left;
+    }
+
+    @media (min-width: $large-width) {
+        margin-left: 10rem;
+    }
+}
+
+.review__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.6rem;
+    margin-bottom: 0.5rem;
+
+    @media (min-width: $desktop-width) {
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    @media (min-width: $large-width) {
+        margin-bottom: 2rem;
+    }
+}
+
+.review__wrap {
+    @media (min-width: $desktop-width) {
+        display: flex;
+        justify-content: space-between;
+        max-width: 35rem;
+    }
+}
+
+.review__name {
+    margin-bottom: 0.5rem;
+}
+
+.review__stars {
+    display: flex;
+    align-items: center;
+    column-gap: 0.3rem;
+}
+
+.review__range {
+    color: #E5E5E5;
+}
+
+.review__text {
+    position: relative;
+    height: 12rem;
+    line-height: 150%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding-right: 1rem;
+
+    &::-webkit-scrollbar {
+        width: 0.1rem;
+        background-color: #74E6CF;
+        height: auto;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: linear-gradient(141deg, #74E6CF 0%, #C0E594 100%);
+        border-radius: 3.125rem;
+    }
+
+    @media (min-width: $desktop-width) {
+        max-width: 35rem;
+    }
+
+    @media (min-width: $large-width) {
+        height: 17rem;
+        row-gap: 0.7rem;
+
+        & > p {
+            font-size: 1rem;
+            line-height: 1.8rem;
+        }
+    }
+}
+
+.review__blur {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+        bottom: -3rem;
+        left: -2rem;
+        right: 1rem;
+        height: 5rem;
+        filter: blur(15px);
+        background-color: $white-color;
+    }
+}
+
+.review__border {
+    text-align: center;
+    margin-bottom: 1rem;
+
+    @media (min-width: $desktop-width) {
+        text-align: left;
+    }
+
+    @media (min-width: $large-width) {
+        margin-bottom: 2rem;
+        row-gap: 1.25rem;
+    }
+}

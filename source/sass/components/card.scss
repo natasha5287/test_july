@@ -1,0 +1,104 @@
+.card {
+    border: 1px solid #F0F8F6;
+    height: auto;
+    background-color: $white-color;
+}
+
+.card__wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem;
+    padding: 1.25rem 1rem;
+
+    @media (min-width: $desktop-width) {
+        padding: 2.5rem 2.25rem;
+    }
+}
+
+.carc__title {
+    flex-grow: 2;
+}
+
+.card__title > span {
+    font-size: 1.125rem;
+
+    @media (min-width: $desktop-width) {
+        font-size: 1.5rem;
+    }
+}
+
+.card__box {
+    position: relative;
+    align-self: end;
+
+    & > .card__link {
+        display: inline-block;
+        position: relative;
+        align-self: end;
+        padding: 0.5rem 2rem 0.5rem 0.6rem;
+        color: $secondary-color;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: 0.0375rem;
+        text-transform: uppercase;
+    
+        border-radius: 3.125rem;
+        background: $bg-blue;
+
+        @media (min-width: $desktop-width) {
+            color: $white-color;
+            padding: 0.5rem 1.25rem;
+            background-color: $secondary-color;
+        }
+    }
+
+}
+
+.card__link {
+    transition: background-color 0.3s ease-in-out;
+
+    span {
+        position: absolute;
+        right: 0.3rem;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.375rem;
+        height: 1.375rem;
+        border-radius: 50%;
+        background: linear-gradient(297deg, #74E6CF 0%, #C0E594 100%);
+
+        &::before,
+        &::after {
+            position: absolute;
+            content: "";
+            width: 0.5rem;
+            height: 0.125rem;
+            border-radius: 0.3125rem;
+            background-color: $white-color;
+        }
+
+        &::after {
+            transform: rotate(90deg);
+        }
+
+        @media (min-width: $desktop-width) {
+            display: none;
+        }
+    }
+
+    &:hover {
+        background-color: darken($bg-blue, 7)
+    }
+
+    @media (min-width: $desktop-width) {
+         &:hover {
+            background-color: darken($secondary-color, 5)
+         }
+    }
+
+}

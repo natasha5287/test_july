@@ -1,0 +1,36 @@
+.news {
+    position: relative;
+    .swiper-pagination {
+        position: relative;
+    }
+
+    .swiper-pagination-bullet {
+        width: 4rem;
+        height: 0.125rem;
+        background: linear-gradient(297deg, #74E6CF 0%, #C0E594 100%);
+        border-radius: 0.1rem;
+    }
+}
+
+.news__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.news__list {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.news__bg {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: -1;
+        transform: translateY(-50%);
+    }
+}

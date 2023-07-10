@@ -1,0 +1,84 @@
+.mission {
+    position: relative;
+}
+
+.mission__box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20rem;
+    margin: 0 auto;
+
+    @media (min-width: $desktop-width) {
+        align-items: flex-start;
+        max-width: 40rem;
+    }
+
+    @media (min-width: $large-width) {
+        max-width: unset;
+    }
+}
+
+.mission__wrap {
+    text-align: center;
+    margin-bottom: 1.25rem;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        align-items: center;
+        column-gap: 0.5rem;
+    }
+}
+
+.mission__title {
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+}
+
+.mission__subtitle {
+    @media (min-width: $desktop-width) {
+        margin-left: auto;
+    }
+}
+
+.mission__subtitle > span {
+    background: linear-gradient(141deg, #74E6CF 0%, #C0E594 100%);
+    font-family: "Galada";
+    font-size: 1.625rem;
+    line-height: 2.625rem;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (min-width: $desktop-width) {
+        font-size: 4.5rem;
+    }
+}
+
+.mission__img {
+    @media (min-width: $desktop-width) {
+        position: absolute;
+        left: -10rem;
+        top: 5rem;
+    }
+}
+
+.mission__image {
+    width: 100%;
+}
+
+.mission__line {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,9 @@
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.25rem;
+}
+
+.social__link:hover {
+    filter: contrast(200%);
+}

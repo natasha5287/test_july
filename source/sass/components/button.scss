@@ -1,0 +1,23 @@
+.button {
+    padding: 1.1rem;
+    color: $white-color;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: $secondary-color;
+    border-radius: 3.125rem;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    max-width: 18rem;
+
+    &:hover {
+        background-color: darken($secondary-color, 5);
+    }
+
+    @media (min-width: $large-width) {
+        font-size: 1.8rem;
+    }
+}
